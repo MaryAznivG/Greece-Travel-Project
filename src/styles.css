@@ -23,7 +23,7 @@ body{
 }
 .grid-3-columns{
      grid-template-columns:1fr 1fr 1fr;
-     padding-top: 30px;
+     padding-top:15px;
 }
 
 .grid-3-columns-with-first-narrow{
@@ -59,6 +59,12 @@ body{
   background-color: #48a1e9;
   text-decoration: none;
 }
+img{
+    filter:
+    sepia (10%)
+    grayscale(5%)
+    brightness (1);
+}
 section{
     max-width:100%;
     margin:0 auto;
@@ -69,7 +75,7 @@ section.secondary{
 
 }
 header{
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)), url("../images/greece.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.6)), url("../images/greece.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -153,7 +159,7 @@ main p{
 }
 footer{
     color:white;
-    background-image:linear-gradient(rgba(39,32,68,0.5), rgba(39,32,68,0.8)), url("../images/greece\ 1.jpg");
+    background-image:linear-gradient(rgba(39,32,68,0.5), rgba(39,32,68,0.6)), url("../images/greece\ 1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
